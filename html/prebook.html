@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<HEAD>
+<META CHARSET = "utf-8">
+<TITLE>Registration</TITLE>
+
+
+<style type="text/css">
+
+body{
+background-image:url("..\images\reg1.jpg");
+background-repeat:no-repeat;
+}
+	
+.button{
+font-size:1.2em;
+background-color:orange;	
+}
+
+a { text-decoration: none; }
+</style>
+</HEAD>
+<header >
+	<h1 style="border-style:solid;background-color:lightgreen; border-color:black; padding:1em;color:red" align=center>Register for the Room Booking</h1>
+	
+</header>
+
+<BODY style="color:black;font-size:20px">
+
+<div style="width=80%;  margin-left:50pt;" align="center">
+ <FORM METHOD="POST" action="..\php\count.php">
+
+
+<table border="0">
+
+
+
+<tr>
+<td>Name </td>
+<td></td>
+<td><input class=textbox type="text" name="name" autocomplete=on required></td>
+</tr>
+
+
+
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+
+
+<tr>
+<td>Programme</td>
+<td></td>
+<td><input class=textbox type="text" name="programme" list="pro"autocomplete=on placeholder="BE/BTech" required></td>
+<datalist id="pro">
+<option value="BE">
+<option value="BTech">
+</datalist>
+</tr>
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+
+
+<tr>
+<td> Department</td>
+<td></td>
+<td><input class=textbox type="text" list="dep" name="department" autocomplete=on  required></td>
+<datalist id="dep">
+<option value="AUTOMOBILE">
+<option value="CHEMICAL">
+<option value="CIVIL">
+<option value="CSE">
+<option value="ECE">
+<option value="EEE">
+<option value="FOODTECH">
+<option value="IT">
+<option value="MECHANICAL">
+<option value="MECHATRONICS">
+</datalist>
+</tr>
+
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+
+
+
+
+
+
+<tr>
+<td></td>
+<td> <input class=button type=submit value="Submit"> </td>
+<td>   <input class=button type=reset value="Clear">  </td>
+<td></td>
+</tr>
+</table>
+</FORM>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,86 @@
+<html>
+<head>
+
+<p style="font-size:40;text-align:center;color:red;background-color:green">KONGU HOSTEL</p>
+<style>
+
+table{
+line-height:50px}
+
+.button{
+font-size:1.2em;
+background-color:orange;	
+}
+
+</style>
+</head>
+<body style="background-color:pink">
+<FORM METHOD="POST" action="..\php\hostelform.php">
+
+
+<table border="0"align="center">
+
+
+<tr>
+<td>Name</td>
+<td></td>
+<td><input class=textbox type="text" name="name" autocomplete=on required></td>
+</tr>
+
+
+
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+
+<tr>
+<td>Rollno</td>
+<td></td>
+<td><input class=textbox type="text" name="rollno" autocomplete=on required></td>
+</tr>
+
+
+
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+
+
+<tr>
+<td> Department</td>
+<td></td>
+<td><input class=textbox type="text" list="dep" name="department" autocomplete=on  required></td>
+<datalist id="dep">
+<option value="AUTOMOBILE">
+<option value="CHEMICAL">
+<option value="CIVIL">
+<option value="CSE">
+<option value="ECE">
+<option value="EEE">
+<option value="FOODTECH">
+<option value="IT">
+<option value="MECHANICAL">
+<option value="MECHATRONICS">
+</datalist>
+</tr>
+
+<tr> </tr>
+<tr> </tr>
+<tr> </tr>
+
+
+
+
+<tr>
+<td></td>
+<td> <input class=button type=submit value="Submit"> </td>
+<td>   <input class=button type=reset value="Clear">  </td>
+<td></td>
+</tr>
+</table>
+
+
+</body>
+</html>

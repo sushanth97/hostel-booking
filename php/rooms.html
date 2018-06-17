@@ -1,0 +1,125 @@
+<html>
+<head><p style="font-size:40px;text-align:center;color:red;">BHARATHI HOSTEL</p>
+<style>
+.but{
+font-size:10;
+background-color:blue;
+color:black;
+}
+body{
+background-image:url("hostel.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+td{
+font-size:40px;
+color:#FFFF00;
+}
+p{
+font-size:30px;
+color:#FF4500;
+}
+</style>
+</head>
+<body>
+<p style="font-size:25px;color: 	#00FF00">Rooms allocated</p>
+<p>CSE..Room 200-220</p>
+<p>ECE..Room 300-315</p>
+<p>EEE..Room 316-320</p>
+<table align=center>
+	<tr>
+<td><input type="button"value="201"></input></td>
+<td><input type="button"value="202"></input></td>
+<td><input type="button"value="203"></input></td>
+<td><input type="button"value="204"></input></td>
+<td><input type="button"value="STAIRS"class="but"></input></td>
+<td><input type="button"value="205"></input></td>
+<td><input type="button"value="206"></input></td>
+<td><input type="button"value="207"></input></td>
+<td colspan="2"><input type="button"value="RESTROOM"class="but"></input></td>
+
+</tr>
+
+<tr>
+<td><input type="button"value="220"></input><td/><td/><td/><td/><td/><td/><td/><td/>
+<td><input type="button"value="208"></input></td>
+</tr>
+
+
+<tr>
+<td><input type="button"value="219"></input><td/><td/><td/><td/><td/><td/><td/><td/>
+<td><input type="button"value="209"></input></td>
+</tr>
+
+<tr>
+<td><input type="button"value="218"></input></td><td/><td/><td/><td/><td/><td/><td/><td/>
+<td><input type="button"value="210"></input></td>
+</tr>
+
+
+<tr>
+<td colspan="2"><input type="button"value="RESTROOM"class="but"></input></td>
+<td><input type="button"value="217"></input></td>
+<td><input type="button"value="216"></input></td>
+<td><input type="button"value="STAIRS"class="but"></input></td>
+<td><input type="button"value="215"></input></td>
+<td><input type="button"value="214"></input></td>
+<td><input type="button"value="213"></input></td>
+<td><input type="button"value="212"></input></td>
+<td><input type="button"value="211"></input></td>
+
+</tr>
+</table>
+<br><br><br>
+<form method="POST" action="..\php\coor.php">
+<table align=center>
+
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td>
+<td><b>Roomno</b></td>
+<td></td><td></td><td></td><td></td><td></td>
+<td><input class="textbox" type="text" name="roomno" maxlength=8 required></td>
+<td><button class=button type="submit">check</td>
+</tr>
+
+<tr>
+<td></td>
+</tr>
+</table>
+</form>
+<form method="POST" action="roombook.php">
+<table align=center>
+<tr>
+<td><b>confirm Roomno</b></td>
+
+<td><input class="textbox" type="text" name="roomno" maxlength=8 required></td>
+</tr>
+<tr></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td></td>
+<td><button class=button type="submit">submit</td></tr>
+</table>
+</form>
+<form method='post' action='..\html\prehostelbook.html'>
+<table align='center'>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr></tr><tr> <td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+<td><button class=button type='submit'>BACK</button></td></tr>
+</table>
+</form>
+
+</body>
+</html>
